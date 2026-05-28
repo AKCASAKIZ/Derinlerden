@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#FDF6EC"/>
+  
+  <!-- Dış çember -->
+  <circle cx="250" cy="250" r="220" fill="#F5E9D0" stroke="#D85A30" stroke-width="6"/>
+  
+  <!-- İç dekoratif çember -->
+  <circle cx="250" cy="250" r="195" fill="none" stroke="#EF9F27" stroke-width="2" stroke-dasharray="8,6"/>
+  
+  <!-- Börek şekli (yarım ay / çi börek formu) -->
+  <ellipse cx="250" cy="240" rx="130" ry="70" fill="#D85A30" transform="rotate(-10, 250, 240)"/>
+  <ellipse cx="250" cy="240" rx="115" ry="55" fill="#993C1D" transform="rotate(-10, 250, 240)"/>
+  
+  <!-- Börek kıvrımları (büküm çizgileri) -->
+  <path d="M145 225 Q175 210 205 225 Q235 240 265 225 Q295 210 325 225 Q340 232 355 240" 
+        fill="none" stroke="#D85A30" stroke-width="5" stroke-linecap="round"/>
+  <path d="M148 238 Q178 223 208 238 Q238 253 268 238 Q298 223 328 238 Q342 245 355 252" 
+        fill="none" stroke="#D85A30" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Buhar / sıcaklık çizgileri -->
+  <path d="M190 155 Q195 140 190 125" fill="none" stroke="#EF9F27" stroke-width="4" stroke-linecap="round"/>
+  <path d="M250 148 Q255 133 250 118" fill="none" stroke="#EF9F27" stroke-width="4" stroke-linecap="round"/>
+  <path d="M310 155 Q315 140 310 125" fill="none" stroke="#EF9F27" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Üst yazı: Derinlerden -->
+  <path id="topArc" d="M 60,250 A 190,190 0 0,1 440,250" fill="none"/>
+  <text font-family="Georgia, serif" font-size="38" fill="#412402" font-weight="bold" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">DERİNLERDEN</textPath>
+  </text>
+  
+  <!-- Alt yazı: Çi Börek -->
+  <path id="bottomArc" d="M 80,265 A 175,175 0 0,0 420,265" fill="none"/>
+  <text font-family="Georgia, serif" font-size="26" fill="#854F0B" letter-spacing="4">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">✦ ÇİBÖREK ✦</textPath>
+  </text>
+  
+  <!-- Alt dekoratif yıldızlar -->
+  <text x="250" y="420" font-size="22" fill="#D85A30" text-anchor="middle" font-family="serif">❧ El Yapımı • Taze ❧</text>
+</svg>
